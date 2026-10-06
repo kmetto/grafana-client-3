@@ -1,0 +1,29 @@
+{
+  "uid": "client-3-sample",
+  "title": "Client 3 — Sample",
+  "schemaVersion": 41,
+  "tags": [
+    "git-sync-poc"
+  ],
+  "time": {
+    "from": "now-6h",
+    "to": "now"
+  },
+  "panels": [
+    {
+      "id": 1,
+      "type": "text",
+      "title": "Hello from Git",
+      "gridPos": {
+        "h": 6,
+        "w": 12,
+        "x": 0,
+        "y": 0
+      },
+      "options": {
+        "mode": "markdown",
+        "content": "Managed by **Git Sync** for Client 3 — Sample."
+      }
+    }
+  ]
+}
